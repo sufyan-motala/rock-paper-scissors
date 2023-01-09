@@ -1,0 +1,67 @@
+body {
+  font-family: Menlo, Consolas, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #222831;
+  color: white;
+  text-align: center;
+}
+
+h2,
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.resultContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.resultBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choices {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.choiceButton {
+  background-color: #393e46;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.choiceButton:hover {
+  background-color: #4a4f57;
+}
+
+.choiceButton:active {
+  background-color: #5b5f68;
+}
